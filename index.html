@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>TLC Computer Solutions</title>
+        <!-- meta tags -->
+        <div>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        </div>
+
+        <!-- config CSS links -->
+        <div>
+            <!-- Bootstrap -->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+            <!-- Font Awesome (Icons) -->
+            <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        </div>
+
+        <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+    <body>
+        <!-- Menu/Navbar -->
+        <header id="menu">
+            <nav class="navbar navbar-toggleable-md fixed-top navbar-light bg-faded" id="menu-tabs">
+                <!-- Expand/Collapse Button Menu for smaller devices -->
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Logo -->
+                <a class="navbar-brand" href="#main-page">
+                    <img src="images/company-logo.png" width="40" height="40" alt="TLC">
+                </a>
+
+                <!-- Tabs -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto" role="tablist">
+                        <!-- 'Home' tab -->
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#main-page">Home</a>
+                        </li>
+
+                        <!-- 'Services & Deals' tab -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services-deals">Services &amp; Deals</a>
+                        </li>
+
+                        <!-- 'Business' tab -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#business">Business</a>
+                        </li>
+
+                        <!-- 'Locations' tab -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#locations">Locations</a>
+                        </li>
+
+                        <!-- 'Contact Us' tab -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact-us">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Jumbotron -->
+        <div id="main-page" class="container-fluid jumbotron">
+            <!-- Business Popup Message -->
+            <div id="business-popup" class="alert alert-info alert-dismissible fade show" role="alert">
+                <button type="button" class="close" data-dismiss="alert">
+                    <span>&times;</span>
+                </button>
+                In search of business or enterprise solutions? Check out <strong><a href="#">TLC Technology Solutions</a></strong>
+            </div>
+
+            <!-- Title -->
+            <h1 id="title" class="display-3">TLC Computer Solutions</h1>
+        </div>
+
+        <!-- Reviews -->
+        <div id="reviews" class="container-fluid carousel slide" data-ride="carousel">
+            <!-- Reviews Text -->
+            <div id="carousel-text" class="carousel-inner" role="listbox">
+                <!-- Review #1 -->
+                <div class="carousel-item active text-center p-4">
+                    <div class="row">
+                        <div class="col-xs-6 placeholder">
+                            <img src="https://www.iconfinder.com/data/icons/user-pictures/101/malecostume-512.png" class="review-pic img-responsive">
+                            <p id="review-a-1" class="review-text text-muted"></p>
+                        </div>
+                        <div class="col align-self-center">
+                            <p id="review-t-1" class="review-text"></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Review #2 -->
+                <div class="carousel-item text-center p-4">
+                    <div class="row">
+                        <div class="col-xs-6 placeholder">
+                            <img src="https://www.iconfinder.com/data/icons/user-pictures/100/female1-512.png" class="review-pic img-responsive">
+                            <p id="review-a-2" class="review-text text-muted"></p>
+                        </div>
+                        <div class="col align-self-center">
+                            <p id="review-t-2" class="review-text"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Left Button -->
+            <a id="carousel-btn-left" class="carousel-control-prev" href="#reviews" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+
+            <!-- Right Button -->
+            <a id="carousel-btn-right" class="carousel-control-next" href="#reviews" role="button" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+
+        <!-- Container for the rest of the page -->
+        <div class="container-fluid">
+            <!-- Deals & Services -->
+            <div id="services-deals" class="row">
+                <div id="services-outline" class="col-lg-8">
+                    <!-- Services -->
+                    <div class="row">
+                        <div class="col-12 col-sm-4">
+                            <div class="card services-card card-outline-primary mb-3 text-center">
+                                <div class="card-header" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="We service laptops and desktops, Windows and Macs. Don't forget, our In-Shop Diagnosis is always FREE!">
+                                    <i class="fa fa-laptop fa-2x"></i>
+                                    <h3 class="card-title">Computer Services</h3>
+                                </div>
+                                <div class="card-block services-list">
+                                    <ul>
+                                        <li>In-Shop Diagnosis</li>
+                                        <li>Remote Repair</li>
+                                        <li>Part Replacement or Upgrade</li>
+                                        <li>Virus Removal</li>
+                                        <li>PC Tune Up</li>
+                                        <li>Security Package</li>
+                                        <li>Back Up Data</li>
+                                        <li>Data Recovery</li>
+                                        <li>Password Removal</li>
+                                        <li>PC Recovery</li>
+                                        <li>In-Shop Tutoring</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4">
+                            <div class="card services-card card-outline-primary mb-3 text-center">
+                                <div class="card-header" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="We service any and all smartphones, including the latest iPhone 7 Plus and Samsung Galaxy S8!">
+                                    <i class="fa fa-mobile fa-2x"></i>
+                                    <h3 class="card-title">Mobile Services</h3>
+                                </div>
+                                <div class="card-block services-list">
+                                    <ul>
+                                        <li>Screen Repair or Replacement</li>
+                                        <li>Battery Repair</li>
+                                        <li>Charging Issues</li>
+                                        <li>Camera Repair</li>
+                                        <li>Button Repair</li>
+                                        <li>Wi-Fi Issues</li>
+                                        <li>Water Damage</li>
+                                        <li>Password Unlock</li>
+                                        <li>Data/Contacts Transfer</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4">
+                            <div class="card services-card card-outline-primary mb-3 text-center">
+                                <div class="card-header" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="Need help setting up your new Smart TV or having issues with a computer that you can't bring to our store? We can come to your home or office and serve you there!">
+                                    <i class="fa fa-home fa-2x"></i>
+                                    <h3 class="card-title">Home Services</h3>
+                                </div>
+                                <div class="card-block services-list">
+                                    <ul>
+                                        <li>New Computer Setup</li>
+                                        <li>Wireless Router Setup</li>
+                                        <li>Home Security System Setup</li>
+                                        <li>Smart TV Setup</li>
+                                        <li>Remote Devices</li>
+                                        <li>Cabling</li>
+                                        <li>Networking</li>
+                                        <li>Video Cameras</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Phone Number Message #1 -->
+                    <div class="row">
+                        <div class="col">
+                            <div id="phone-number-msg1" class="alert alert-info text-center" role="alert">
+                                Can't find what you're looking for? Give us a call at <strong>(###) ###-####</strong> or visit us at one of our <strong><a href="#locations">locations</a></strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Deals -->
+                <div id="deals" class="col col-lg-4 text-center">
+                    <h2 id="deals-title">Monthly Deals</h2>
+                    <div class="deals-card card card-outline-danger text-center">
+                        <div class="row deals-card-contents">
+                            <div class="icon-bar icon-bar-left col-2 col-md-1 col-lg-2">
+                                <a href="#" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="left" data-content="Share"><i class="fa fa-share-alt"></i></a>
+                                <a href="#" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="left" data-content="Print"><i class="fa fa-print"></i></a>
+                                <a href="#" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="left" data-content="Save"><i class="fa fa-floppy-o"></i></a>
+                            </div>
+                            <div class="deals-text-left card-block col-10 col-md-11 col-lg-10">
+                                <p>$39.99 for any available laptop charger!</p>
+                                <small>Restrictions may apply</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="deals-card card card-outline-danger text-center">
+                        <div class="row deals-card-contents">
+                            <div class="deals-text-right card-block col-10 col-md-11 col-lg-10">
+                                <p>$39.99 for any available laptop charger!</p>
+                                <small>Restrictions may apply</small>
+                            </div>
+                            <div class="icon-bar icon-bar-right col-2 col-md-1 col-lg-2">
+                                <a href="#" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="left" data-content="Share"><i class="fa fa-share-alt"></i></a>
+                                <a href="#" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="left" data-content="Print"><i class="fa fa-print"></i></a>
+                                <a href="#" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="left" data-content="Save"><i class="fa fa-floppy-o"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="deals-card card card-outline-danger text-center">
+                        <div class="row deals-card-contents">
+                            <div class="icon-bar icon-bar-left col-2 col-md-1 col-lg-2">
+                                <a href="#" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="left" data-content="Share"><i class="fa fa-share-alt"></i></a>
+                                <a href="#" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="left" data-content="Print"><i class="fa fa-print"></i></a>
+                                <a href="#" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="left" data-content="Save"><i class="fa fa-floppy-o"></i></a>
+                            </div>
+                            <div class="deals-text-left card-block col-10 col-md-11 col-lg-10">
+                                <p>$39.99 for any available laptop charger!</p>
+                                <small>Restrictions may apply</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Business -->
+            <div id="business" class="row">
+                <div class="col">
+                    <div class="alert alert-info text-center" role="alert">
+                        Our expert IT Support technicians specialize in assisting small to medium size businesses with comprehensive IT support and services. We offer <strong>initial on-site evaluation</strong>, <strong>server set up &amp; support</strong>, <strong>diagnostic analysis &amp; solutions</strong>, and <strong>on-site &amp; remote maintainence support</strong>. For more information, call us at (###) ###-#### or visit our <strong><a href="#">TLC Technology Solutions</a></strong> website.
+                    </div>
+                </div>
+        </div>
+
+            <!-- Locations -->
+            <div id="locations" class="row">
+                <div class="col">
+                    <div class="card card-outline-primary location-container-padding text-center">
+                        <h1>Our Locations</h1>
+                        <br>
+                        <div class="row">
+                            <!-- Summerlin -->
+                            <div class="col-xs-12 col-lg-4 padding-col">
+                                <div class="col locations-card card">
+                                <div class="card-header">
+                                    <h3>Summerlin</h3>
+                                </div>
+                                <div class="row card-row">
+                                    <div id="summerlin-map" class="col-xs-6 col-sm-6 col-md-6 col-lg col-xl">
+                                        Oops! It looks like the map could not be loaded. Please try refreshing the page.
+                                    </div>
+                                    <div id="summerlin-info" class="card-block col-xs-6 col-sm-6 col-md-6 col-lg col-xl">
+                                        <h5 class="card-title">7501 W Lake Mead Blvd #112<br>Las Vegas, NV 89128</h5>
+                                        <br>
+                                        <p class="card-text">Located in the Summerhill Plaza, next to EOS Fitness</p>
+                                        <hr style="width: 90%; color: black; height: 1px; background-color:lightgray;" />
+                                        <h6 class="card-title"><strong>Hours</strong></h6>
+                                        <div class="row location-hours">
+                                            <div class="col-6 days"></div>
+                                            <div class="col-6 hours"></div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col">
+                                                <p class="card-text smartHoursSummerlin"></p>
+                                                <button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#directionsPopup">Need Directions?</button>
+
+                                                <!-- Directions Popup -->
+                                                <div class="modal fade" id="directionsPopup" tabindex="-1" role="dialog">
+                                                    <div class="modal-dialog" role="document">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h5 class="modal-title" id="popupTitle">Directions to TLC Computer Solutions Summerlin</h5>
+                                                                <button type="button" class="close" data-dismiss="modal">
+                                                                    <span>&times;</span>
+                                                                </button>
+                                                            </div>
+                                                            <div class="modal-body">
+                                                                <div id="directionsMapS"></div>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            </div>
+
+                            <!-- Aliante -->
+                            <div class="col-xs-12 col-lg-4 padding-col">
+                                <div class="col locations-card card">
+                                <div class="card-header">
+                                    <h3>Aliante</h3>
+                                </div>
+                                <div class="row card-row">
+                                    <div id="aliante-map" class="col-xs-6 col-sm-6 col-md-6 col-lg col-xl">
+                                        Oops! It looks like the map could not be loaded. Please try refreshing the page.
+                                    </div>
+                                    <div id="aliante-info" class="card-block col-xs-6 col-sm-6 col-md-6 col-lg col-xl">
+                                        <h5 class="card-title">6905 N Aliante Pkwy<br>North Las Vegas, NV 89084</h5>
+                                        <br>
+                                        <p class="card-text">Located behind Chase Bank</p>
+                                        <hr style="width: 90%; color: black; height: 1px; background-color:lightgray;" />
+                                        <h6 class="card-title"><strong>Hours</strong></h6>
+                                        <div class="row location-hours">
+                                            <div class="col-6 days"></div>
+                                            <div class="col-6 hours"></div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col">
+                                                <p class="card-text smartHoursSummerlin"></p>
+                                                <button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#directionsPopup">Need Directions?</button>
+
+                                                <!-- Directions Popup -->
+                                                <div class="modal fade" id="directionsPopup" tabindex="-1" role="dialog">
+                                                    <div class="modal-dialog" role="document">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h5 class="modal-title" id="popupTitle">Directions to TLC Computer Solutions Summerlin</h5>
+                                                                <button type="button" class="close" data-dismiss="modal">
+                                                                    <span>&times;</span>
+                                                                </button>
+                                                            </div>
+                                                            <div class="modal-body">
+                                                                <div id="directionsMapS"></div>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+
+                            <!-- Downtown -->
+                            <div class="col-xs-12 col-lg-4 padding-col">
+                                <div class="col locations-card card">
+                                <div class="card-header">
+                                    <h3>Downtown</h3>
+                                </div>
+                                <div class="row card-row">
+                                    <div id="downtown-map" class="col-xs-6 col-sm-6 col-md-6 col-lg col-xl">
+                                        Oops! It looks like the map could not be loaded. Please try refreshing the page.
+                                    </div>
+                                    <div id="downtown-info" class="card-block col-xs-6 col-sm-6 col-md-6 col-lg col-xl">
+                                        <h5 class="card-title">719 S 6th St<br>Las Vegas, NV 89101</h5>
+                                        <br>
+                                        <p class="card-text">On S 6th St and Gass Ave</p>
+                                        <hr style="width: 90%; color: black; height: 1px; background-color:lightgray;" />
+                                        <h6 class="card-title"><strong>Hours</strong></h6>
+                                        <div class="row location-hours">
+                                            <div class="col-6 days"></div>
+                                            <div class="col-6 hours"></div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col">
+                                                <p class="card-text smartHoursSummerlin"></p>
+                                                <button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#directionsPopup">Need Directions?</button>
+
+                                                <!-- Directions Popup -->
+                                                <div class="modal fade" id="directionsPopup" tabindex="-1" role="dialog">
+                                                    <div class="modal-dialog" role="document">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h5 class="modal-title" id="popupTitle">Directions to TLC Computer Solutions Summerlin</h5>
+                                                                <button type="button" class="close" data-dismiss="modal">
+                                                                    <span>&times;</span>
+                                                                </button>
+                                                            </div>
+                                                            <div class="modal-body">
+                                                                <div id="directionsMapS"></div>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Phone Number Message #2 -->
+            <div id="phone-number-msg2" class="row">
+                <div class="col">
+                    <div class="alert alert-info text-center" role="alert">
+                        Want to speak to an on-site technician? Give us a call at <strong>(###) ###-####</strong>.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Us -->
+            <div id="contact-us" class="row">
+                <div class="col">
+                    <div class="card card-outline-primary text-center">
+                        <form method="post">
+                            <h1 id="contact-title">Contact Us</h1>
+
+                            <!-- Success Message -->
+                            <div class="form-group row">
+                                <div class="col">
+                                    <div id="success-msg" class="alert alert-success text-center" role="alert">
+                                        <strong>Success!</strong> Your email has been sent successfully. We will get back to you as soon as possible.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Error Message -->
+                            <div class="form-group row">
+                                <div class="col">
+                                    <div id="error-msg" class="alert alert-danger text-center" role="alert">
+                                        <strong>Uh oh!</strong> There were error(s) in your email:
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Email   -->
+                            <div class="form-group row">
+                                <label for="email-input" class="col-sm-2 col-form-label">Email</label>
+                                <div class="col-xs-12 col-sm-10">
+                                    <input id="email" name="email" class="form-control" type="email" placeholder="Your email address">
+                                </div>
+                            </div>
+
+                            <!-- Subject -->
+                            <div class="form-group row">
+                                <label for="example-email-input" class="col-sm-2 col-form-label">Subject</label>
+                                <div class="col-xs-12 col-sm-10">
+                                    <input id="subject" name="subject" class="form-control" type="text" placeholder="A quick summary of your message">
+                                </div>
+                            </div>
+
+                            <!-- Content -->
+                            <div class="form-group row">
+                                <label for="content-input" class="col-sm-2 col-form-label">Content</label>
+                                <div class="col-xs-12 col-sm-10">
+                                    <textarea id="content" name="content" class="form-control" rows="10" placeholder="Type your message here"></textarea>
+                                </div>
+                            </div>
+
+                            <!-- Submit  -->
+                            <div class="form-group row">
+                                <div class="offset-sm-2 col-sm-10">
+                                    <button id="submit-button" type="submit" class="btn btn-primary">Submit</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer -->
+            <footer class="row">
+                <!-- Copyright -->
+                <div class="col">
+                <p class="text-muted col" style="text-align: left">&copy; TLC Computer Solutions, 2017</p>
+            </div>
+
+                <!-- Made by -->
+                <div class="col">
+                <p class="text-muted col" style="text-align: center">Made with <span style="color: #0275d8">&hearts;</span> by <a href="https://www.github.com/biermanm">Matthew Bierman</a></p>
+            </div>
+
+                <!-- Social Media Links -->
+                <div class="col">
+                    <p class="text-muted col" style="text-align: right">
+                        <!-- Facebook -->
+                        <a href="https://www.facebook.com/TLCComputerSolutions/" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="Facebook"><i class="fa fa-facebook-square footer-icon" href="https://www.facebook.com/TLCComputerSolutions/"></i></a>
+
+                        <!-- Twitter -->
+                        <a href="https://twitter.com/jrsinchak" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="Twitter"><i class="fa fa-twitter-square footer-icon"></i></a>
+
+                        <!-- YouTube -->
+                        <a href="https://www.youtube.com/channel/UCqHzky40I4wiP7K8hkWBOZw" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="YouTube"><i class="fa fa-youtube-square footer-icon"></i></a>
+
+                        <!-- Yelp -->
+                        <a href="https://www.yelp.com/biz/tlc-computer-solutions-las-vegas" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="Yelp"><i class="fa fa-yelp footer-icon"></i></a>
+                    </p>
+                </div>
+            </footer>
+        </div>
+
+        <!-- config scripts -->
+        <div>
+            <!-- jQuery -->
+            <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+            <!-- Tether -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+
+            <!-- Bootstrap -->
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+            <!-- JavaScript -->
+            <script type="text/javascript" src="index.js"></script>
+        </div>
+
+        <!-- Google Maps -->
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC2anUr0ANCdJMvpdg_RF3oYf0EOu6EEpA&callback=initMap"></script>
+    </body>
+</html>

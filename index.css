@@ -1,0 +1,174 @@
+/* General */
+body {
+    margin: 0;
+    padding 0;
+}
+#services-deals, #phone-number-msg2 {
+    margin-top: 15px;
+}
+a:visited {
+    color: #0275d8;
+}
+
+/* Menu/Navbar */
+.nav-item {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 120%;
+}
+
+/* Jumbotron */
+#business-popup {
+    margin: auto;
+    width: 40%;
+}
+.jumbotron {
+    height: 100%;
+    color: white;
+    text-align: center;
+    background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("images/store-front.jpg") no-repeat center center;
+    background-position: 0% 0%;
+    background-size: 100% 170%;
+    margin-top: 64px;
+    margin-bottom: 0px;
+}
+#title {
+    margin-top: 10%;
+    font-size: 0;
+    background-color: black;
+}
+
+/* Reviews */
+#carousel-btn-left, #carousel-btn-right {
+    height: 112px;
+    background-color: white;
+}
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='blue' viewBox='0 0 8 8'%3E%3Cpath d='M4 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+.carousel-control-next-icon {
+    background-image : url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='blue' viewBox='0 0 8 8'%3E%3Cpath d='M1.5 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+    color: black;
+}
+.review-pic {
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+}
+.review-text {
+    margin: 0;
+}
+
+/* Services */
+#phone-number-msg1 {
+    margin: 0;
+}
+#services-deals {
+    margin-bottom: 15px;
+}
+.services-card {
+    height: -webkit-calc(100% - 15px);
+    height: -moz-calc(100% - 15px);
+    height: calc(100% - 15px);
+}
+.card-title {
+    margin: 0;
+}
+ul {
+    text-align: left;
+    padding-left: 20px;
+}
+
+/* Deals */
+.deals-card {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.deals-card-contents {
+    margin: 0;
+}
+#deals-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.deals-text-left, .deals-text-right {
+    padding-top: 35px;
+}
+.icon-bar-left {
+    padding-left: 0;
+}
+.icon-bar-right {
+    padding-right: 0;
+}
+
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 5px;
+    transition: all 0.3s ease;
+    color: #d9534f;
+    font-size: 23px;
+}
+.icon-bar a:hover {
+    color: #7c211e;
+}
+
+/* Locations */
+.locations-card {
+    padding: 0;
+}
+.padding-col {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#summerlin-map, #aliante-map, #downtown-map {
+    width: 100%;
+}
+.location-container-padding {
+    padding: 25px 25px 10px 25px;
+    margin: 0;
+}
+.location-hours {
+    height: 168px;
+}
+.days {
+    text-align: left;
+    height: 168px;
+}
+.hours {
+    text-align: right;
+    height: 168px;
+}
+.days p {
+    margin: 0;
+}
+.hours p {
+    margin: 0;
+}
+#directionsPopup {
+    width: 100%;
+}
+
+/* Contact Us */
+#contact-title {
+    padding-top: 15px;
+}
+.form-group {
+    text-align: left;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#error-msg, #success-msg {
+    display: none;
+}
+
+/* Footer */
+footer {
+    padding-top: 20px;
+    padding-bottom: 4px;
+}
+.footer-icon {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 160%;
+}
